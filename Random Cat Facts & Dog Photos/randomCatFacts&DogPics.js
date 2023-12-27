@@ -39,7 +39,8 @@
 // }
 //result on console
 
-//API call using fetch() - using axios  //random cat facts
+
+//API call using axios- using async and await   //random cat facts
 let url1="https://catfact.ninja/fact";
 
 async function getFacts(){
@@ -59,7 +60,7 @@ btn1.addEventListener("click",async () =>{
     p.innerText=fact;
 });
 
-//API call using fetch() - using axios      //random dog image
+//API call using axios      //random dog image
 let ur2="https://dog.ceo/api/breeds/image/random";
 
 async function randomDog(){
